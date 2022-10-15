@@ -4,7 +4,7 @@ const cartItems = [
     title: "Samsung Galaxy S8",
     price: "399.99",
     img: "https://dl.airtable.com/.attachments/64b266ad865098befbda3c3577a773c9/24497852/yedjpkwxljtb75t3tezl.png",
-    amount: 1,
+    amount: 2,
   },
   {
     id: "recB6qcHPxb62YJ75",
@@ -25,7 +25,7 @@ const cartItems = [
     title: "Samsung Galaxy S7",
     price: "599.99 ",
     img: "https://dl.airtable.com/.attachments/91ee456448cef47deec553a2ea3fa8ad/b08bec68/phone-2_ohtt5s.png",
-    amount: 1,
+    amount: 2,
   },
 ];
 

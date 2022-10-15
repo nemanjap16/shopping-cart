@@ -21,6 +21,7 @@
   --text-faded: 0 0% 14%;
   --thumbnail: hsl(0, 0%, 87%);
   --amount: hsl(322, 82%, 61%);
+  --border: hsl(237, 100%, 70%);
   --neutral: hsl(321, 58%, 42%);
 
   font-synthesis: none;
@@ -43,7 +44,7 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 2px solid var(--border);
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -54,7 +55,7 @@ button {
 }
 
 button:hover {
-  border-color: #646cff;
+  border-color: var(--amount);
 }
 
 button:focus,

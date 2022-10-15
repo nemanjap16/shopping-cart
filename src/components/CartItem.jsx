@@ -17,7 +17,7 @@ const CartItem = () => {
       <h1 className="cart-title">Your Cart</h1>
       <div className="item">
         {cartItems.map((item) => (
-          <Thumbnail {...item} />
+          <Thumbnail key={item.id} {...item} />
         ))}
       </div>
     </section>
